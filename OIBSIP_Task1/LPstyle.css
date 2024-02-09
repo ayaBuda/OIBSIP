@@ -1,5 +1,29 @@
 h1 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
+    color: pink;
+    font-size: 34px;
+    text-align: left;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url('images\Solar.jpg');
+    background-size: auto 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+/* .content img {
+    
+    height: 100%;
+    width: 300px;
+    float: right;
+    margin-left: 10px;
+} */
+
+
+
+.content {
+    background-color: hsl(240, 97%, 13%);
+    padding: 20px;
+    color: #333;
 }
