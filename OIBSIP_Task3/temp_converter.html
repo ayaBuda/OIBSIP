@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="temp.css">
+  <title>Temperature Converter</title>
+</head>
+
+<body>
+  <h1>Temperature Converter</h1>
+
+  <div class="converter">
+    <label for="convertFrom">Convert From:</label>
+    <select id="convertFrom">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <label for="convertTo">Convert To:</label>
+    <select id="convertTo">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <label for="temperature">Temperature:</label>
+    <input type="number" id="temperature" step="any" >
+
+    <button onclick="convertBtn()">Convert</button>
+
+    <div id="result">
+        <label for="temperature">Converted Temperature:</label>
+        <output name="result"></output>
+      
+    </div>
+
+    <!-- <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+    </form> -->
+
+  </div>
+</body>
