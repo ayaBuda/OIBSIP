@@ -45,7 +45,8 @@ body {
 .banner-text h1{
   font-size: 100px;
   font-style: italic;
-  color: rgb(8, 8, 60) ;
+  /* color: rgb(8, 8, 60) ; */
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -59,6 +60,7 @@ body {
   margin: 19px auto 0;
 }
 .banner-btn a{
+  font-weight: 18px;
   width: 150px;
   text-decoration: none;
   display: inline-block;
@@ -131,22 +133,80 @@ body {
     color: orange;
 }
 
-/* .paragraph{
-    float: left;
-} */
-
-/* #main{
-    height: 200px;
-    position: relative;
-    margin-bottom: 0%;
-    display: flex;
-    justify-content: space-around;
-  } */
-
 .paragraph, .image {
     display: inline-block;
     vertical-align: top;
   }
+
+  .searhBar1{
+    margin-top: 10px;
+  }
+
+  .searhBar1 .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+
+  }
+
+.searhBar1 .searchTerm {
+  width: 100%;
+  border: 3px solid #020251;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: medium;
+  /* text-align: center; */
+  margin-left: 50px;
+  
+}
+
+.searhBar1 .searchTerm:focus{
+  color: black;
+}
+
+.searhBar1 .searchButton {
+  width: auto;
+  height: 50px;
+  border: 1px solid #020251;
+  background: #020251;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-right: 50px;
+}
+
+#about{
+  background: url(images/orange-circle.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.track{
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.about-text h2{
+  color: #020251;
+  text-align: center;
+  font-size: 50px;
+
+
+}
+
+.about-text p{
+  color: #020251;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 160px;
+}
 
 #infomation{
   height: 200px;
@@ -159,10 +219,12 @@ body {
   }
 
 .headings{
+  color: white;
   font-weight: bold;
 }
   
 .contact-text, .location-text {
+  color: white;
   display: inline-block;
   vertical-align: top;
   }
