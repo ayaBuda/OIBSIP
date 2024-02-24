@@ -1,4 +1,4 @@
-
+/* styling the temperature input field*/
 input[type="number"] {
     width: 100px;
     padding: 8px;
@@ -6,6 +6,7 @@ input[type="number"] {
 
   }
 
+/* styling the form content and background*/
 .form {
   padding: 40px; 
   background-color: wheat;
@@ -22,6 +23,7 @@ input[type="number"] {
   text-align: center;
 }
 
+/* styling the convert button*/
 .form button{
   margin-top: 50px; 
   padding: 10px 216px;
@@ -32,6 +34,7 @@ input[type="number"] {
   margin-bottom: 20px;
 }
   
+/*adding more detials to the result area*/
 #result {
   border: 1px solid #f75f78;
   padding: 16px;

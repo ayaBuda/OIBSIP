@@ -1,3 +1,10 @@
+/**
+ * Converts temperature from one unit to another.
+ * convertFrom - the temperature to convert from (eg. "celsius", "fahrenheit", "kelvin").
+ * convertTo - the temperature to convert to (eg. "celsius", "fahrenheit", "kelvin").
+ * @param {number} temperature - The temperature value to convert.
+ * @returns {number} - The converted temperature value.
+ */
 
 function convertTemperature() {
   var convertFrom = document.getElementById("convertFrom").value;
