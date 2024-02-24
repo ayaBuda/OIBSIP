@@ -9,7 +9,23 @@
 
 <body>
 
-<section id="formPage">
+<section id="banner">
+    <div class="topnav">
+        <img class="image" src="images/logo.png">
+        <a href="LandingPage.html">Home</a>
+        <a href="LandingPage.html#infomation">Contact Us</a>
+        <div class="dropdown">
+        <button class="dropbtn">Our Services</button>
+        <div class="dropdown-content">
+            <a href="#">Delivery</a>
+            <a href="#">Pick-Up Point</a>
+            <a href="#">Online Enquiry</a>
+        </div>
+        </div>
+    </div>
+
+    <section id="pageContent">
+    <img class="formImage" src="images/deliBox.jpg">
     <div class="container">
     <h2>Delivery Form</h2>
 
@@ -32,10 +48,10 @@
     <label for="weight">Weight (in kg):</label>
     <input type="number" id="weight" name="weight" pattern="\d+(\.\d+)? kg" required><br>
 
-    <button type="submit" name="get_quote">Get Quote</button>
-    <button type="submit" name="order_delivery">Place Order</button>
+    <button class="btn" type="submit" name="get_quote">Get Quote</button>
+    <button class="btn" type="submit" name="order_delivery">Place Order</button>
     </form>
-</div>
+</div></section>
 </section>
 
 </body>
