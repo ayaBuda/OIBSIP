@@ -1,12 +1,63 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
+  } */
+
+
+
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
   }
+
+/* .form{
+  padding: 110px;
+  background-color: wheat;
+  border-radius: 16px;
+  margin: 50px;
+  margin-bottom: 10px;
+} */
+
+.form {
+  padding: 40px; 
+  background-color: wheat;
+  border-radius: 16px;
+  margin: 50px;
+  margin-bottom: 10px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.form h1{
+  color: #f75f78;
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+
+.form button{
+  margin-top: 50px; 
+  padding: 10px 216px;
+  color: #f75f78;
+}
+
+.form label{
+  margin-bottom: 20px;
+}
   
+#result {
+  border: 1px solid #f75f78;
+  padding: 16px;
+  margin-top: 40px;
+  text-align: center;
+}
   /* Style for body */
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -57,7 +108,7 @@ h1 {
   }
   
   /* Style for input */
-  input[type="number"] {
+  /* input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -74,4 +125,4 @@ h1 {
     border-radius: 5px;
     background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
-  }
+  } */ 
