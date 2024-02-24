@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
   <div class="form">
   <h1>Temperature Converter</h1>
 
@@ -17,12 +16,14 @@
     <select id="convertFrom" name="convertFrom">
       <option value="celsius">Celsius</option>
       <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
     </select><br><br>
   
     <label for="convertTo" >Convert to:</label>
     <select id="convertTo" name="convertTo">
       <option value="celsius">Celsius</option>
       <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
     </select><br><br>
   
     <label for="temperature">Temperature:</label>
@@ -30,7 +31,7 @@
   
     <button type="button" onclick="convertTemperature()">Convert</button>
   </form>
-  
+  <p>Results:</p>
   <div id="result"></div>
 </div>
 
