@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: white;
+    }
+
+/* .wallpaper{
+    background-size: cover;
+    background-position: center;
+} */
+  
+
+.image{
+    height: 850px;
+    margin-top: -428px;
+    margin-left: 383px;
+}
+
+#container{
+    background: url(images/darkGreyWallpp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+h1{
+    color: palevioletred;
+    font-size: 120px; 
+}
+
+.paragraph{
+    max-width: 30%; 
+    margin-right: auto; 
+    margin-left: 20px;
+    margin-top: -380px;
+    color: hsl(0, 0%, 80%);
+}
+
+.sideNav{
+    margin-top: 230px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px; 
+    height: 100%; 
+    transition: width 0.3s;
+    /* background-color: #f0f0f0; */
+}
+
+.sideNav a{
+/* padding: 8px 8px 8px 32px; */
+  /* text-decoration: none; */
+  font-size: 25px;
+  color: hsl(0, 0%, 80%);
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 60px;
+}
+
+.sidenav:hover {
+    width: 850px;
+    background-color: palevioletred;
+  }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+li{
+    padding: 10px;
+}
+
+a{
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
+
