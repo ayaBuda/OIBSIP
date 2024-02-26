@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+/* @import "https://unpkg.com/open-props/normalize.min.css"; */
 
 body {
     margin: 0;
@@ -6,7 +8,7 @@ body {
 
 
 .image{
-    height: 850px;
+    height: 800px;
     margin-top: -448px;
     margin-left: 383px;
 }
@@ -23,6 +25,7 @@ body {
     color: palevioletred;
     font-size: 130px; 
     margin-left: 10px;
+    /* margin-top: 10px; */
 }
 
 .paragraph{
@@ -69,7 +72,7 @@ a:hover{
     color: palevioletred;
 }
 
-#skillsPage{
+#interestsPage{
     background: url(images/solidPinkWallpaper.jpg);
     background-size: cover;
     background-position: center;
@@ -80,8 +83,90 @@ a:hover{
 .headingTwo{
     color: hsl(0, 1%, 28%);
     text-align: center;
-    font-size: 120px;
-    margin-left: 180px;
+    font-size: 110px;
+    margin-left: 100px;
 }
 
+.media-scroller{
+    --spacer: 1rem;
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 29%;
 
+    padding: 0 var(--spacer ) var(--spacer);
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-element{
+    margin-top: -110px;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--spacer);
+    padding: var(--spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+}
+
+.media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 10 / 9;
+    object-fit: cover;
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--spacer, 1rem);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+
+}
+
+#skillsContainer{
+    background: url(images/darkGreyWallpp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+#meContainer{
+    background: url(images/solidPinkWallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+.marquee-container {
+    overflow: hidden; 
+    position: relative;
+    /* height: 350px; */
+  }
+
+.aboutMe{
+    position: relative;
+    top: -50px; 
+    left: 0;
+    animation: slideUp 2s forwards;
+
+    color: hsl(0, 1%, 28%);
+    text-align: center;
+    margin-top: -20px;
+    font-size: 110px;
+    margin-left: 100px;
+}
+
+@keyframes slideUp {
+    0% {
+      top: -50px; 
+    }
+    100% {
+      top: 0; 
+    }
+  }
