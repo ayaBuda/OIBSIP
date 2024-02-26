@@ -8,7 +8,7 @@ body {
 
 
 .image{
-    height: 800px;
+    height: 840px;
     margin-top: -448px;
     margin-left: 383px;
 }
@@ -143,30 +143,16 @@ a:hover{
     margin-top: -80px;
 }
 
-.marquee-container {
-    overflow: hidden; 
-    position: relative;
-    /* height: 350px; */
-  }
 
 .aboutMe{
-    position: relative;
+    /* position: relative;
     top: -50px; 
     left: 0;
-    animation: slideUp 2s forwards;
+    animation: slideUp 2s forwards; */
 
     color: hsl(0, 1%, 28%);
     text-align: center;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     font-size: 110px;
     margin-left: 100px;
 }
-
-@keyframes slideUp {
-    0% {
-      top: -50px; 
-    }
-    100% {
-      top: 0; 
-    }
-  }
