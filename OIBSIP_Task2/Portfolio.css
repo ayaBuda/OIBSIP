@@ -43,7 +43,7 @@ body {
     top: 0;
     right: 0;
     width: 200px; 
-    height: 100%; 
+    height: 100; 
     transition: width 0.3s;
 }
 
@@ -83,7 +83,7 @@ a:hover{
 .headingTwo{
     color: hsl(0, 1%, 28%);
     text-align: center;
-    font-size: 110px;
+    font-size: 100px;
     margin-left: 100px;
 }
 
@@ -94,19 +94,20 @@ a:hover{
     grid-auto-flow: column;
     grid-auto-columns: 29%;
 
-    padding: 0 var(--spacer ) var(--spacer);
+    padding: 15px var(--spacer ) var(--spacer);
 
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
 
 .media-element{
-    margin-top: -110px;
+    margin-top: -100px;
     display: grid;
     grid-template-rows: min-content;
     gap: var(--spacer);
     padding: var(--spacer);
     background: var(--surface-2);
+    background-color: hsl(0, 1%, 28%);
     border-radius: var(--radius-2);
     box-shadow: var(--shadow-2);
 }
@@ -115,6 +116,10 @@ a:hover{
     inline-size: 100%;
     aspect-ratio: 10 / 9;
     object-fit: cover;
+}
+
+.media-element > p{
+    color: white;
 }
 
 .snaps-inline{
@@ -136,23 +141,32 @@ a:hover{
 }
 
 #meContainer{
-    background: url(images/solidPinkWallpaper.jpg);
+    background: url(images/aboutMeBG.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.aboutContent{
+    max-width: 800px;
+    padding: 90px;
+    border-color: 4px solid black;
+    background-color: palevioletred;
+    text-align: center;
 }
 
 
 .aboutMe{
-    /* position: relative;
-    top: -50px; 
-    left: 0;
-    animation: slideUp 2s forwards; */
-
     color: hsl(0, 1%, 28%);
     text-align: center;
-    /* margin-top: -20px; */
-    font-size: 110px;
-    margin-left: 100px;
+    font-size: 90px;
+    margin: 0;
+}
+
+.aboutParagraph{
+    color: hsl(0, 0%, 80%);
 }
