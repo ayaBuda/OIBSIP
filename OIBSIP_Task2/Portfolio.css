@@ -1,5 +1,4 @@
 @import "https://unpkg.com/open-props";
-/* @import "https://unpkg.com/open-props/normalize.min.css"; */
 
 body {
     margin: 0;
@@ -25,25 +24,63 @@ body {
     color: palevioletred;
     font-size: 130px; 
     margin-left: 10px;
-    /* margin-top: 10px; */
 }
 
+.line {
+    width: 100%; 
+    border-top: 1px solid hsl(0, 0%, 80%);
+  }
+
 .paragraph{
-    max-width: 30%; 
+    max-width: 40%; 
     margin-right: auto; 
     margin-left: 20px;
-    margin-top: -380px;
+    margin-top: -440px;
     color: hsl(0, 0%, 80%);
+}
+.highlight{
+    color: palevioletred;
+}
+
+.contact{
+    margin-top: 80px;
+}
+.eachContact {
+    display: flex; 
+    align-items: center; 
+    color: hsl(0, 0%, 80%);
+  }
+
+.eachContacts{
+    display: flex; 
+    align-items: center; 
+    color: hsl(0, 0%, 80%);
+    margin-left: 20px;
+
+}
+  
+.contactImg {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+.contactImgs{
+    height: 20px;
+    margin-left: 10px; 
+}
+
+.introPara{
+    font-size: 40px;
 }
 
 .sideNav{
-    margin-top: -260px;
-    float: right;
-    margin-right: 30px;
+    margin-top: 150px;
+    position: absolute;
+    margin-right: 10px;
     top: 0;
-    right: 0;
+    right: 80px;
     width: 200px; 
-    height: 100; 
+    height: 10%; 
     transition: width 0.3s;
 }
 
@@ -70,6 +107,75 @@ li:hover{
 }
 a:hover{
     color: palevioletred;
+}
+
+#meContainer{
+    background: url(images/aboutMeBG.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.aboutContent{
+    max-width: 800px;
+    padding: 90px;
+    border-color: 4px solid black;
+    background-color: hsl(0, 1%, 28%);
+    text-align: center;
+    
+}
+
+.aboutMe{
+    color: palevioletred;
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+
+.aboutParagraph{
+    color: hsl(0, 0%, 80%);
+}
+
+#skillsPage{
+    background: url(images/darkGreyWallpp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -80px;
+    color: hsl(0, 0%, 80%);
+}
+
+#skillsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.headingSkills{
+    color: hsl(0, 0%, 80%);
+    text-align: center;
+    font-size: 100px; 
+    margin-left: 10px;
+}
+
+.skillsImg{
+    height: 60px;
+}
+
+.frontSkills,
+.backSkills,
+.otherSkills {
+    text-align: center;
+    height: 280px;
+    padding: 20px;
+    flex: 1; 
+    margin-right: 60px;
+    border: 2px solid palevioletred;
 }
 
 #interestsPage{
@@ -132,41 +238,8 @@ a:hover{
 
 }
 
-#skillsContainer{
-    background: url(images/darkGreyWallpp.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin-top: -80px;
-}
-
-#meContainer{
-    background: url(images/aboutMeBG.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px
-}
-
-.aboutContent{
-    max-width: 800px;
-    padding: 90px;
-    border-color: 4px solid black;
-    background-color: palevioletred;
-    text-align: center;
-}
 
 
-.aboutMe{
-    color: hsl(0, 1%, 28%);
-    text-align: center;
-    font-size: 90px;
-    margin: 0;
-}
 
-.aboutParagraph{
-    color: hsl(0, 0%, 80%);
-}
+
+
