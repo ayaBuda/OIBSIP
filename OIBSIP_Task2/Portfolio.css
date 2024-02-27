@@ -109,13 +109,21 @@ a:hover{
     color: palevioletred;
 }
 
-#meContainer{
+#aboutPage{
     background: url(images/aboutMeBG.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#meContainer{  
+    display: flex;
+    /* justify-content: center; */
     align-items: center;
     padding: 20px
 }
@@ -138,6 +146,13 @@ a:hover{
 
 .aboutParagraph{
     color: hsl(0, 0%, 80%);
+}
+
+#eduContent{
+    float: right;
+    /* display: flex; */
+    align-items: center;
+    padding: 50px;
 }
 
 #skillsPage{
