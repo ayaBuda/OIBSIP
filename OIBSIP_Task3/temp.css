@@ -16,6 +16,8 @@ input[type="number"] {
   display: flex; 
   flex-direction: column; 
   justify-content: center;
+  text-align: center;
+  font-size: 25px;
 }
 
 .form h1{
@@ -28,6 +30,7 @@ input[type="number"] {
   margin-top: 50px; 
   padding: 10px 216px;
   color: #f75f78;
+
 }
 
 .form label{
